@@ -6,7 +6,7 @@ pipeline {
                 sh 'python get-pip.py'
             }
         }
-        stage('test') {
+        stage('install') {
             steps {
                 sh 'pip install -r requirements.txt'
             }
