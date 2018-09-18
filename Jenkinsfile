@@ -9,7 +9,7 @@ pipeline {
         }
         stage('install') {
             steps {
-                sh 'pip install -r requirements.txt'
+                sh '/var/jenkins_home/.local/bin/pip install -r requirements.txt --user'
             }
         }
         stage('test') {
