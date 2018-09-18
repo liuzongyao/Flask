@@ -1,0 +1,13 @@
+  {
+    "host": "127.0.0.1",
+    "vncport": "3006",
+    "port": "5009",
+    "maxThreads": 1,
+    "threads": 1,
+    "description": "host name is:qaimages1-98dcb6749-ncgkl",
+    "machineVars": [ ],
+    "roles": [
+                "Default"
+            ],
+    "_id": "5b9a1cd69d3f2b0500dc51e7"
+  }

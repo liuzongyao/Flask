@@ -1,0 +1,15 @@
+{
+    "sendEmail": false,
+    "ignoreAfterState": false,
+    "ignoreStatus": false,
+    "ignoreScreenshots": false,
+    "allScreenshots": false,
+    "testcases": [
+
+    ],
+    "variables": [
+    ],
+    "executionID": "",
+    "machines": [
+    ]
+}
