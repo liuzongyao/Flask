@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python get-pip.py'
+                sh 'python get-pip.py --user'
+                sh 'export PATH=/var/jenkins_home/.local/bin:$PATH'
             }
         }
         stage('install') {
