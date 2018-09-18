@@ -3,7 +3,12 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python helloworld.py'
+                sh 'pip install -r requirements.txt'
+            }
+        }
+        stage('test') {
+            steps {
+                sh 'python jenkins_redwood.py'
             }
         }
     }
