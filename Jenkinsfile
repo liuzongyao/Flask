@@ -13,7 +13,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                sh 'python jenkins_redwood.py'
+                sh 'python helloworld.py'
             }
         }
     }
