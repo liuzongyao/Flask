@@ -8,6 +8,7 @@ pipeline {
         }
         stage('install') {
             steps {
+            	sh 'sleep 1000'
                 sh 'pip install -r requirements.txt --user'
             }
         }
