@@ -7,7 +7,7 @@ class Jenkins_Redwood:
         self.client = pymongo.MongoClient("mongodb://118.24.252.42:30001")
         self.db = self.client.get_database("automationframework")
         self.db.authenticate("Redwood_user123", "Redwood_password123", "automationframework", "MONGODB-CR")
-        self.host = "http://redwood:30005"
+        self.host = "http://118.24.252.42:30005"
 
     def get_test_case_id_by_name(self, test_case_name):
         test_case_id = str(self.db.get_collection("testcases").find_one({'name':test_case_name})['_id'])
