@@ -1,0 +1,43 @@
+{
+    "sendEmail": false, 
+    "ignoreAfterState": false, 
+    "ignoreStatus": false, 
+    "ignoreScreenshots": false, 
+    "allScreenshots": false, 
+    "testcases": [
+        {
+            "rowIndex": "", 
+            "tcData": "", 
+            "testcaseID": "5bda705c4c55f90a00810171", 
+            "_id": "1541042285826-17532-31040", 
+            "resultID": "5bda71354c55f90a00810174", 
+            "startAction": "", 
+            "endAction": "", 
+            "retryCount": 0
+        }
+    ], 
+    "variables": [ ], 
+    "executionID": "1541042280730-1057-9902", 
+    "machines": [
+        {
+            "host": "127.0.0.1", 
+            "vncport": "3006", 
+            "port": "5009", 
+            "maxThreads": 1, 
+            "threads": 1, 
+            "tag": "", 
+            "state": "", 
+            "baseState": "", 
+            "resultID": "", 
+            "baseStateTCID": "1541042280736-28925-28019", 
+            "result": "", 
+            "description": "host name is:283fef42d37a", 
+            "machineVars": [ ], 
+            "roles": [
+                "Default"
+            ], 
+            "_id": "5b99dabdb94a7f060031b5d3"
+        }
+    ], 
+    "templates": [ ]
+}
