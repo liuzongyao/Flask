@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python get-pip.py --user'
+                #sh 'python get-pip.py --user'
+                sh 'echo build'
             }
         }
         stage('install') {
