@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent python
     stages {
         stage('build') {
             steps {
@@ -17,6 +17,7 @@ pipeline {
             steps {
                 sh 'python jenkins_redwood.py'
                 sh 'echo finished'
+                sh 'sleep 3000'            
             }
         }
     }
