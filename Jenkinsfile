@@ -15,7 +15,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                sh 'python jenkins_redwood.py'
+                sh 'python helloworld.py'
                 sh 'echo finished'
                 sh 'sleep 3000'            
             }
