@@ -17,7 +17,7 @@ pipeline {
             steps {
                 sh 'python helloworld.py'
                 sh 'echo finished'
-                sh 'sleep 3000'            
+                sh 'sleep 300'            
             }
         }
     }
