@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 /*sh 'python get-pip.py --user'*/
-                sh 'echo build'
+                sh 'echo build1'
             }
         }
         stage('install') {
